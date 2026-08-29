@@ -1,0 +1,16 @@
+name = "offine-music"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "MUSIC_BUCKET"
+bucket_name = "offine-music"
+jurisdiction = "eu"
+
+[env.production]
+routes = [
+  { pattern = "music.example.com/*", zone_id = "your_zone_id_here" }
+]
+
+[env.development]
+vars = { ENVIRONMENT = "development" }

@@ -1,0 +1,26 @@
+{
+  "name": "offine-music",
+  "version": "2.0.0",
+  "description": "Offline music player with Cloudflare R2 cloud storage",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "latest"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "mp3",
+    "cloudflare",
+    "r2",
+    "offline"
+  ],
+  "author": "",
+  "license": "MIT"
+}
